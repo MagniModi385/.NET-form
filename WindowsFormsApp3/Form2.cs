@@ -18,7 +18,7 @@ namespace WindowsFormsApp3
             InitializeComponent();
             try
             {
-                con = new NpgsqlConnection("server=localhost;port=5432;database=demo;user id=postgres;password=NewP@ssw0rd");
+                con = new NpgsqlConnection("server=localhost;port=5432;database=******;user id=postgres;password=******");
                 MessageBox.Show("Connection Successful");
                 con.Open();
             }
